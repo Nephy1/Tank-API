@@ -1,4 +1,4 @@
-const americanTanks = [
+const tanks = [
   {
     id: 1,
     name: 'T110E5',
@@ -95,5 +95,38 @@ const americanTanks = [
     sideTurretArmor: 76,
     rearTurretArmor: 51,
   },
+  {
+    id: 7,
+    name: 'Sheridan',
+    nation: 'American',
+    role: 'Light Tank',
+    alphaDamage: 910,
+    regularShellPenetration: 76,
+    premiumShellPenetration: 162,
+    highExplosivePenetration: 85,
+    frontHullArmor: 14,
+    sideHullArmor: 32,
+    rearHullArmor: 13,
+    frontTurretArmor: 38,
+    sideTurretArmor: 16,
+    rearTurretArmor: 16,
+  },
+  {
+    id: 8,
+    name: 'T92',
+    nation: 'American',
+    role: 'Artillery',
+    alphaDamage: 1100,
+    regularShellPenetration: 60,
+    premiumShellPenetration: 75,
+    highExplosivePenetration: 372,
+    frontHullArmor: 25,
+    sideHullArmor: 25,
+    rearHullArmor: 13,
+    frontTurretArmor: 0,
+    sideTurretArmor: 0,
+    rearTurretArmor: 0,
+  },
+
 
 ]

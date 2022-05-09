@@ -19,4 +19,4 @@ const tankSchema = new mongoose.Schema({
 
 const tanks = new mongoose.model('tank', tankSchema)
 
-module.exports = tanks
+module.exports = tankSchema

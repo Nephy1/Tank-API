@@ -159,5 +159,21 @@ const tanks = [
     sideTurretArmor: 0,
     rearTurretArmor: 0,
   },
+  {
+    id: 10,
+    name: 'Obj 261',
+    nation: 'Russian',
+    role: 'Artillery',
+    alphaDamage: 800,
+    regularShellPenetration: 45,
+    premiumShellPenetration: 56,
+    highExplosivePenetration: 334,
+    frontHullArmor: 75,
+    sideHullArmor: 50,
+    rearHullArmor: 30,
+    frontTurretArmor: 0,
+    sideTurretArmor: 0,
+    rearTurretArmor: 0,
+  },
 
 ]
